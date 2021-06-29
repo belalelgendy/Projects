@@ -1,0 +1,3 @@
+http.begin(client, "http://fotaiti41.freevar.com/script.php?command=2");
+http.begin(client, "http://fotaiti41.freevar.com/Request.txt");
+int ServerRequest = http.GET();
